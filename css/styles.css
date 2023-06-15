@@ -790,8 +790,9 @@ body {
 
 .form-icons {
   position: absolute;
-  left: 16px;
+  fill: #2e2f42;
   top: 50%;
+  left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -899,6 +900,9 @@ input:focus + .form-icons {
 }
 .footer-form {
   margin-left: 80px;
+}
+.input-icon {
+  position: relative;
 }
 /* -------portfolio page-------- */
 
