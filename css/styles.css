@@ -787,10 +787,10 @@ body {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4d5ae5;
 }
-.checkbox {
+.check-box {
   margin-bottom: 24px;
 }
 
@@ -801,7 +801,7 @@ body {
   color: var(--fill-icon);
 }
 
-.checkbox-block {
+.check-box-block {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -810,8 +810,9 @@ body {
   justify-content: center;
   align-items: center;
   fill: transparent;
-  transition: background-color var(--transition), border var(--transition),
-    fill var(--transition);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 8px;
 }
 .checkbox-icon {
@@ -850,6 +851,12 @@ body {
 .send:hover,
 .send:focus {
   background: var(--change-color);
+}
+.text-area-user {
+  margin-bottom: 16px;
+}
+.user-privacy {
+  color: var(--custumers-icons-color);
 }
 
 /* -------portfolio page-------- */
