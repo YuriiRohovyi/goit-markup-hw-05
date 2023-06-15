@@ -817,13 +817,14 @@ body {
 }
 .checkbox-icon {
 }
-.input-checkbox:checked + .checkbox-label > .checkbox-block {
+.input-checkbox:checked + .label-checkbox > .text-checkbox {
   background-color: var(--active-accent-background-color);
   border: none;
-  fill: var(--accent-background-color);
+  fill: #f4f4fd;
 }
+
 .input-checkbox:focus + .checkbox-label > .checkbox-block {
-  border-color: var(--change-color);
+  border-color: var(--active-accent-background-color);
 }
 .privacy-policy {
   text-decoration-line: underline;
@@ -850,7 +851,7 @@ body {
 }
 .send:hover,
 .send:focus {
-  background: var(--change-color);
+  background: var(--active-accent-background-color);
 }
 .text-area-user {
   margin-bottom: 16px;
