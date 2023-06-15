@@ -856,6 +856,9 @@ body {
 .text-area-user {
   margin-bottom: 16px;
 }
+input:focus + .form-icons {
+  fill: #4d5ae5;
+}
 
 /* -------portfolio page-------- */
 
