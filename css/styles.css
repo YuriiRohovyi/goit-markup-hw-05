@@ -721,11 +721,11 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+  line-height: 1.5;
 }
 .new-modal-form {
   display: flex;
@@ -734,6 +734,7 @@ body {
 
 .contact-user {
   margin-top: 34px;
+  margin-bottom: 8px;
 }
 .modal-label {
   font-size: 12px;
