@@ -858,6 +858,10 @@ body {
 }
 input:focus + .form-icons {
   fill: #4d5ae5;
+  border-color: #4d5ae5;
+}
+.footer-form {
+  margin-left: 80px;
 }
 
 /* -------portfolio page-------- */
