@@ -750,14 +750,21 @@ body {
 .input-form {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
   background-color: transparent;
   margin-bottom: 26px;
   padding-left: 38px;
   outline: transparent;
+  display: block;
+  text-indent: 38px;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  resize: none;
+  padding-left: 38px;
 }
+
 .input-modal:focus-within + .icon-modal {
   fill: var(--second-logo-color);
 }
