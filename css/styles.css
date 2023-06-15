@@ -674,6 +674,10 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
 }
 
 .close-window {
@@ -710,6 +714,62 @@ body {
 .icon-close:hover,
 .icon-close:focus {
   fill: #ffffff;
+}
+.modal-tittle {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+.new-modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-user {
+  margin-top: 34px;
+}
+.modal-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 4px;
+  color: #8e8f99;
+}
+.input-icon {
+  position: relative;
+}
+
+.input-form {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  height: 40px;
+  background-color: transparent;
+  margin-bottom: 26px;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-form:focus {
+  border-color: #4d5ae5;
+}
+.form-icons {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-icons:focus {
+  fill: #4d5ae5;
 }
 
 /* -------portfolio page-------- */
