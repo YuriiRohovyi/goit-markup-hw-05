@@ -905,6 +905,26 @@ input:focus + .form-icons {
   margin-left: 80px;
 }
 
+.input-checkbox:focus + .label-checkbox > .text-checkbox {
+  border-color: var(--active-accent-background-color);
+}
+.input-checkbox[type="checkbox"]:checked + label {
+  color: var(--accent-color);
+  border: #4d5ae5;
+  fill: #ffffff;
+}
+
+.input-checkbox:checked + .label-checkbox > .text-checkbox {
+  background-color: var(--active-accent-background-color);
+  border: none;
+  fill: #f4f4fd;
+}
+.icon-checkbox {
+  display: inline-block;
+  border-radius: 2px;
+  fill: #fcfcfc;
+}
+
 /* -------portfolio page-------- */
 
 .section-portfolio {
