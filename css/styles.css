@@ -769,7 +769,7 @@ body {
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
-  padding-left: 2px;
+  padding-left: 38px;
 }
 .input-form::placeholder {
   color: #616161;
@@ -860,6 +860,11 @@ input::placeholder {
   border-color: var(--active-accent-background-color);
   fill: #f4f4fd;
 }
+
+.input-checkbox:checked + .checkbox-label > .check-box-block {
+  border: none;
+}
+
 .privacy-policy {
   text-decoration-line: underline;
   color: var(--second-logo-color);
