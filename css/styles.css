@@ -715,7 +715,6 @@ body {
   fill: #ffffff;
 }
 .modal-tittle {
-  position: absolute;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -723,8 +722,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 0px 24px 24px 16px;
   line-height: 1.5;
+  margin-bottom: 16px;
 }
 .contact-user {
   margin-bottom: 8px;
@@ -740,8 +739,8 @@ body {
   max-width: 408px;
   background: #fcfcfc;
   width: 100%;
-  padding: 24px 24px 24px 24px;
 }
+
 .new-modal-form:focus-within {
   border-color: #2196f3;
 }
