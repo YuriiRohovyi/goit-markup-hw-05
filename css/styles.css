@@ -762,7 +762,6 @@ body {
   width: 100%;
   height: 40px;
   outline: transparent;
-  text-indent: 38px;
   color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -856,13 +855,13 @@ input::placeholder {
   margin-right: 8px;
 }
 .input-checkbox:focus + .checkbox-label > .check-box-block {
-  background-color: var(--active-accent-background-color);
   border-color: var(--active-accent-background-color);
-  fill: #f4f4fd;
 }
 
 .input-checkbox:checked + .checkbox-label > .check-box-block {
+  background-color: var(--active-accent-background-color);
   border: none;
+  fill: #f4f4fd;
 }
 
 .privacy-policy {
